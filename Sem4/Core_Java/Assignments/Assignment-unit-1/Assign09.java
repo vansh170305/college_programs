@@ -6,15 +6,15 @@ public class Assign09 {
 
     System.out.println("Enter height of the traingle : ");
     float height = sc.nextFloat();
-    System.out.println("Enter height of the traingle : ");
+    System.out.println("Enter base of the traingle : ");
     float base = sc.nextFloat();
 
     Area area1 = new Area(height, base);
 
 
-    System.out.println("Enter height of the traingle : ");
+    System.out.println("Enter length of the rectangle : ");
     int l = sc.nextInt();
-    System.out.println("Enter height of the traingle : ");
+    System.out.println("Enter breath of the rectangle : ");
     int b = sc.nextInt();
     
     Area area2 = new Area(l, b);
